@@ -1109,7 +1109,7 @@ input[type="checkbox"] {
 }
 
 .toggle-mat:checked + .lbl-toggle-mat + .collapsible-content-mat {
-  max-height: 100vh;
+  max-height: 500vh;
 }
 
 .toggle-mat:checked + .lbl-toggle-mat .ion-md-add {

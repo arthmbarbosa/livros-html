@@ -121,7 +121,7 @@ html, .body {
     display: flex;
     position: absolute;
     top: 52px;
-    left: 26px;
+    left: 2%;
     z-index: 10;
     width: 636px;
   }
@@ -160,7 +160,7 @@ html, .body {
     display: flex;
     position: absolute;
     top: 52px;
-    left: 68px;
+    left: 30%;
     z-index: 10;
     width: 740px;
     }
