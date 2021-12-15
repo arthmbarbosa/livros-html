@@ -49,6 +49,10 @@
   margin-bottom: .5rem !important;
 }
 
+.mb-2rem {
+  margin-bottom: 2rem !important;
+}
+
 .superacao,
 .leitura-doc {
   font-family: "Prelo_extra_bold";
