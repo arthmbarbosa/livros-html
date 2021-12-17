@@ -342,6 +342,10 @@ tbody tr td:first-child {
   margin-left: 1.5rem;
 }
 
+.ml-1rem {
+  margin-left: 18px !important;
+}
+
 .questao-resolvida p {
   margin: 0;
 }
