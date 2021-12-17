@@ -32,7 +32,7 @@
 }
 
 .mb-2rem {
-  margin-bottom: 2rem;
+  margin-bottom: 2rem !important;
 }
 
 .margin-exercicio {
@@ -340,6 +340,10 @@ tbody tr td:first-child {
 
 .ml {
   margin-left: 1.5rem;
+}
+
+.ml-1rem {
+  margin-left: 18px !important;
 }
 
 .questao-resolvida p {
@@ -918,9 +922,12 @@ label img {
 }
 
 .boxe-mais-title {
-  color: #333333;
+  color: #707070;
   font-family: "Prelo_extra_bold", sans-serif;
-  font-size: 1.25rem;
+  font-size: 24px;
+  line-height:28px;
+  margin-bottom: 1rem !important;
+  width: 90%;
 }
 
 .boxe-mais {
@@ -994,4 +1001,13 @@ label img {
 
 .boxe-arte-leitura .double-columned-content {
   align-items: initial;
+}
+/*  */
+
+.double-img {
+  width: 100%;
+  gap: 24px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: flex-start;
 }
