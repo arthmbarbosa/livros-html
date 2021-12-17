@@ -68,6 +68,14 @@
   font-family: "proxima_novalight", sans-serif;
 }
 
+.quote-title {
+  text-align: center;
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+  font-family: "proxima_novaregular", sans-serif;
+
+}
+
 .fonte {
   text-align: right;
   font-size: 1rem;
@@ -547,6 +555,13 @@ thead tr .tg-0lax:first-child {
   padding: 0.5rem;
   margin-top: 3rem;
 }
+
+
+
+.enem img {
+  width: 36px;
+}
+
 
 a.tooltip {
   text-decoration: none;
