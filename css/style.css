@@ -97,11 +97,15 @@
 }
 
 .mb-2rem {
-    margin-bottom: 2rem;
+    margin-bottom: 2rem !important;
 }
 
 .mb-1rem {
     margin-bottom: 1rem;
+}
+
+.mb-0 {
+    margin-bottom:0 !important;
 }
 
 .mb-30rem {
@@ -1541,4 +1545,19 @@ label img {
     width: 100%;
     border: 2px solid rgba(15, 131, 166, .5);
     padding: 0 1rem;
+}
+
+.blue-box { 
+    text-align:center;
+    display: block;
+    margin: 1rem auto;
+    width: 70%;
+ background: rgb(1, 95, 91, .2);
+    padding: 1rem;
+}
+
+.blue-box span {
+        font-size: 18px;
+        font-family: 'proxima_novalight';
+
 }
