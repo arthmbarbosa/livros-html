@@ -15,6 +15,19 @@
   margin-bottom: .5rem;
 }
 
+.mb-5px{
+  margin-bottom: 5px;
+}
+
+.mb-1rem{
+  margin-bottom: 1rem;
+}
+
+.img-sm {
+  max-width: 200px ;
+  margin: auto;
+}
+
 .img-subtitle{
   text-align: left;
   font-size: 1rem;
@@ -24,6 +37,15 @@
   color: #000000;
   margin-bottom: .5rem;
   max-width: 740px;
+}
+
+.fonte-exercicio { 
+  font-size: 0.75rem;
+  margin-bottom: 1rem;
+  text-align: right;
+  color: #71706F;
+  letter-spacing: 0px;
+  font-weight: 300;
 }
 
 .img-credit{
@@ -47,11 +69,14 @@
 }
 
 .boxe-06-02-cie{
-  text-align: center;
+  width: 90%;
+  text-align: left;
+  line-height: 2;
   display: flex;
   align-items: flex-start;
   gap: 0.5rem;
   margin-top: 1rem;
+  
 }
 
 .boxe-06-02-icon {
@@ -76,11 +101,39 @@
 .titulo2 {
   margin-top: 3rem; 
   text-align: left;
-  font-size: 2rem;
+  font-size: 1.625rem;
   font-weight: 800;
   color: #45973D;
   font-family: 'Prelo_extra_bold', sans-serif;
+}
 
+.titulo3 {
+  text-align: left;
+  font-weight: 800;
+  font-size: 1.4rem;
+  color: #666666;
+  font-family: 'Prelo_extra_bold', sans-serif;
+  margin-top: 2rem;
+}
+
+.titulo4 {
+  text-align: left;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  color: #000;
+  font-family: 'Prelo_bold', sans-serif;
+}
+
+.chapter-description{
+  font-size: 18px;
+  font-family: 'proxima_novaregular', sans-serif;
+  transform: translateY(-5%);
+}
+
+.quote { 
+  margin: 1rem 0;
+  font-size: 1.125rem;
+  font-family: 'proxima_novalight', sans-serif;
 }
 
 
@@ -218,14 +271,17 @@ th {
   background: #62AD68;
   padding: 8px;
 }
-tbody tr td:first-child {
+
+/* tbody tr td:first-child {
   background: #DEEEDE;
   font-weight: bold;
   text-align: center;
-}
+  font-family: 'proxima_novaregular';
+} */
 
 .tg-0lax {
   text-align: center;
+  font-family: 'proxima_novalight';
 }
 
 
@@ -281,7 +337,16 @@ tbody tr td:first-child {
 }
 
 .ml { 
-  margin-left: 1.5rem;
+  margin-left: 1.5rem !important;
+}
+
+.ml-05 { 
+  margin-left: 3.5rem !important;
+}
+
+.ml-04{
+  margin-left: 2rem !important;
+
 }
 
 .questao-resolvida p{
@@ -300,26 +365,26 @@ tbody tr td:first-child {
 .questao-alternativas li::marker {
   color: black;
   font-size: 1.125rem;
-
-  font-weight: bold;
+  font-family: 'proxima_novabold';
 }
 
 .questao-alternativas li {
-  padding: 1rem 0;
+  font-family: 'proxima_novalight';
+  padding: 4px 0;
   color: #000;
 }
 
 .resposta p{
-  color: #000;
+  color: #707070;
+
   font-size: 1.125rem;
   margin: 1rem 0;
 
 }
 
-.resposta-title{
-  color: #707070;
+.resposta .resposta-title{
+  font-family: 'proxima_novabold';
   margin: 1rem 0;
-  font-weight: 800;
 }
 
 .number-list {
@@ -333,6 +398,7 @@ tbody tr td:first-child {
 }
 
 .number-list li:before {
+  font-family: 'proxima_novabold';
   font-size: 18px;
   font-weight: 800;
   content: counter(level1) " "; /*Instead of ". " */
@@ -353,7 +419,7 @@ tbody tr td:first-child {
   color: white;
   font-size: 1.25rem;
   justify-content: center;
-  font-family: 'Prelo_regular', sans-serif;
+  font-family: 'Prelo_extra_bold', sans-serif;
   background: linear-gradient(90deg, rgba(69,151,61,1) 0%, rgba(48,110,43,1) 100%);
   padding: 8px;
   border: 4px solid var(  --color-bio-d1);
@@ -364,7 +430,7 @@ tbody tr td:first-child {
   margin-top: 3rem;
   color: white;
   font-size: 1.25rem;
-  font-family: 'Prelo', sans-serif;
+  font-family: 'Prelo_extra_bold', sans-serif;
   background: linear-gradient(90deg, rgba(69,151,61,1) 0%, rgba(48,110,43,1) 100%);
   padding: 8px;
   border:4px solid var(  --color-bio-d1);
@@ -374,6 +440,7 @@ tbody tr td:first-child {
   color: #000;
   margin-top: 1.5rem;
   font-size: 1.125rem;
+  font-family: 'proxima_novalight', sans-serif;
 }
 
 .exercicio-text b {
@@ -394,7 +461,7 @@ tbody tr td:first-child {
 }
 
 .consolidando-saberes {
-  font-family: 'Prelo_regular', sans-serif;
+  font-family: 'Prelo_extra_bold', sans-serif;
   padding: 0.5rem 1rem;
   color: #BD8432;
   font-size: 1.25rem;
@@ -432,6 +499,7 @@ tbody tr td:first-child {
   overflow:hidden;
   padding:10px 5px;
   word-break:normal;
+  font-family: 'proxima_novaregular';
 }
 
 thead tr .tg-0lax:first-child {
@@ -439,12 +507,43 @@ thead tr .tg-0lax:first-child {
   border: none;
   border-bottom: 1px solid #62ad68;
 }
-.tg .tg-dtp4{background-color:#deeede;
+.tg .tg-dtp4{
+  background-color:#deeede;
   border-color:inherit;
   color:#62ad68;
   text-align:center;
   vertical-align:middle;
+  font-family: 'proxima_novaregular';
 }
+
+.tg .tg-dtp3{
+  background-color: #ABD0A7;
+  border-color:inherit;  
+  color:white;
+  text-align:center;
+  vertical-align:middle;
+  font-family: 'proxima_novabold';
+  font-size: 18px;
+}
+
+.tg .tg-kgtg{background-color:white;
+  border-color:inherit;
+  text-align:center;
+  vertical-align:middle;
+  font-family: 'proxima_novaregular';
+  font-weight: 300;
+}
+
+.tg .tg-kgtk{background-color:transparent;
+  border-color:inherit;
+  text-align:center;
+  vertical-align:middle;
+  font-family: 'proxima_novaregular';
+  font-weight: 300;
+}
+
+.tg .tg-white{background-color:white; border-color: white;}
+
 .tg .tg-k3ji{
   background-color:#62ad68;
   padding: 0 0.5rem;
@@ -453,18 +552,20 @@ thead tr .tg-0lax:first-child {
   vertical-align:middle;
   color: white;
   text-transform: uppercase;
+  font-family: 'proxima_novaregular';
 }
 .tg .tg-0pky{
   border-color:inherit;
   text-align:center;
   vertical-align:middle;
+  font-family: 'proxima_novalight';
 }
 
 .enem{ 
   color: white;
   font-size: 1.25rem;
   text-transform: uppercase;
-  font-family: 'Prelo_regular', sans-serif;
+  font-family: 'Prelo_extra_bold', sans-serif;
 
   background-color:#BD8432;
   border: 3px solid #fff;
@@ -482,7 +583,6 @@ a.tooltip {
   display: inline-block;
   transition: all 0.4s ease;
   -webkit-transition: all .4s ease;
-  padding: 5px;
   background-color: #FFF;
   position: relative;
 }
@@ -644,6 +744,132 @@ label img{
   padding: 0 !important;
   font-size: 1.25rem !important;
   color: #BD8432;
+  font-family: 'Prelo_bold';
 }
 
 /*  */
+
+/* Boxe Mais */
+
+.header-boxe-mais-cie {   
+  top: -1.875rem;   
+  left: -3px;   
+  position: absolute;   
+  max-width: 40%;   
+  color: white;   
+  font-size: 1.25rem;   
+  justify-content: center;   
+  font-family: 'Prelo_extra_bold', sans-serif;   
+  background: #BD8432;   
+  padding: 8px;   
+  border: 3px solid #F7A941; 
+
+}  
+
+.boxe-mais-title-cie {
+  color:#333333;
+  font-family: 'Prelo_extra_bold', sans-serif;
+  font-size: 1.25rem;
+}
+  
+.boxe-mais-cie {   
+  border: 3px solid #F7A941;   
+  background-color: #fff;   
+  padding: 2.375rem 1rem 1.5rem;   
+  position: relative;   
+  margin-top: 2.375rem; 
+  margin-bottom: 2rem;
+
+
+}  
+  
+.boxe-mais-cie 
+.double-columned-content{   
+  padding: 0; 
+  
+}  
+
+.boxe-mais-cie::before {   
+  content: " ";   
+  width: 200px; 
+
+} 
+
+.boxe-mais-cie
+p { 
+ margin: 0;
+}
+
+.boxe-mais-cie 
+.double-columned-content {   
+  align-items: initial;
+
+  }
+
+  .boxe-mais-cie
+  .titulo4 { 
+    color: #707070;
+    font-size: 24px;
+    margin-bottom: 1rem;
+  }
+
+  .boxe-mais-cie
+  b { 
+    color: #707070;
+  }
+
+  /*  */
+
+  .superacao {
+    border: 3px solid #F7A941;
+    width: fit-content;
+    font-family: 'Prelo_extra_bold';
+    font-size: 1.25rem;
+    position: relative;
+    z-index: 0;
+    margin-top: 2rem;
+}
+
+.superacao::before {
+  content: '';
+  height: 3px;
+  width: 740px;
+  left: -3px;
+  top: 50%;
+  background-color: #F7A941;
+  position: absolute;
+  z-index: -1;
+}
+.superacao p {
+  background-color: #FCE1BC;
+  padding: 0.5rem 1.5rem;
+  color: #BD8432;
+}
+
+.tabela-exercicio {
+margin: 0 auto;}
+.tabela-exercicio td{
+  border-color: transparent;
+  background-color: white !important;
+}
+
+.tabela-exercicio tr{
+  background-color: white !important;
+}
+
+.soma-box {
+  width: 60px;
+  height: 2rem;
+  background-color: white;
+  border: 1px solid #707070;
+  border-radius: .5rem;
+}
+
+.img-md {
+  width: 40%;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
