@@ -14,7 +14,7 @@
     --color-prod-txt-a3: #ECF0A6;
     --color-prod-txt-a4: #F7F9D9;
     /*  */
-    --color-ing-d1: #069891;
+    --color-ing-d1: #607a79;
     --color-ing-d2: #015F5B;
     --color-ing-d3: #069891;
     --color-ing-d4: #069891;
@@ -290,6 +290,20 @@ a {
 
 
 /* Fonts */
+
+@font-face {
+    font-family: 'theserif_extralight';
+    src: url('../assets/fonts/TheSerif/TheSerif-HP2ExLig.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'theserif_semibold';
+    src: url('../assets/fonts/TheSerif/theserif-semibold-plain.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
 
 @font-face {
     font-family: 'proxima_novablack_italic';
